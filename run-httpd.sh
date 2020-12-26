@@ -1,0 +1,1 @@
+docker run -dit --rm --name cci-web -p 8086:80 -v "$PWD"/code:/usr/local/apache2/htdocs/ httpd
